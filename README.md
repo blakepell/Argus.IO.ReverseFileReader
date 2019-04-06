@@ -7,6 +7,8 @@ A file/stream reader that is designed to iterate over a file or a stream line by
 in a way that does not read all of the lines into memory at one time.  This supports .NET Standard, 
 the full framework as well as the Windows Universal Platform (UWP) apps.
 
+Although this is geared towards files it will read any Stream line by line in reverse order.
+
 ## .Net Framework Support
 
 - .NET Standard 2.0
