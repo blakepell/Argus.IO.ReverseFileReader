@@ -1,5 +1,8 @@
 # Reverse File/Stream Reader
 
+[![NuGet version (ReverseFileReader)](https://img.shields.io/badge/nuget-v2019.4.6.1-blue.svg?style=flat-square)](https://www.nuget.org/packages/ReverseFileReader/)
+[![NuGet version (ReverseFileReader)](https://img.shields.io/github/license/blakepell/argus.io.reversefilereader.svg?style=flat-square)](https://github.com/blakepell/Argus.IO.ReverseFileReader/blob/master/LICENSE)
+
 A file/stream reader that is designed to iterate over a file or a stream line by line in reverse order 
 in a way that does not read all of the lines into memory at one time.  This supports .NET Standard, 
 the full framework as well as the Windows Universal Platform (UWP) apps.
@@ -102,4 +105,13 @@ private async Task OpenDocument()
         return;
     }
 }
+```
+## Tail
+
+I have provided a console program that is a lightweight tail utility.  It reads lines of the end
+of the provided file.  If more lines are requested than the file has the entire file is returned.
+
+```
+Syntax: tail <filename>
+        tail <filename> <number of lines to fetch>
 ```
