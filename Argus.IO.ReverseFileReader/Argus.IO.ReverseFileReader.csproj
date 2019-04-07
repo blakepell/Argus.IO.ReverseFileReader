@@ -17,6 +17,7 @@
     <RepositoryUrl>https://github.com/blakepell/Argus.IO.ReverseFileReader</RepositoryUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageReleaseNotes>- Initial release, see the GitHub project for usage examples.</PackageReleaseNotes>
+    <PackageIconUrl>https://raw.githubusercontent.com/blakepell/Argus.IO.ReverseFileReader/master/Assets/Argus-Logo-Purple-64.png</PackageIconUrl>
   </PropertyGroup>
 
 </Project>
