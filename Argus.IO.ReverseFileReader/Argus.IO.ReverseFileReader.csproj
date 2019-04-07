@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net472;net471;net47;net462;net461;net46;net452;net451;net45;net4</TargetFrameworks>
     <PackageId>Argus.IO.ReverseFileReader</PackageId>
-    <Version>2019.4.6.1</Version>
+    <Version>2019.4.7.1</Version>
     <Authors>Blake Pell</Authors>
     <Company>http://www.blakepell.com</Company>
     <Product>Argus.IO.ReverseFileReader</Product>
