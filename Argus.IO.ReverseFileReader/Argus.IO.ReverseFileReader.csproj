@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net472;net471;net47;net462;net461;net46;net452;net451;net45;net4</TargetFrameworks>
     <PackageId>Argus.IO.ReverseFileReader</PackageId>
+    <Title>Argus.IO.ReverseFileReader</Title>
     <Version>2019.4.7.1</Version>
     <Authors>Blake Pell</Authors>
     <Company>http://www.blakepell.com</Company>
@@ -18,6 +19,7 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageReleaseNotes>- Initial release, see the GitHub project for usage examples.</PackageReleaseNotes>
     <PackageIconUrl>https://raw.githubusercontent.com/blakepell/Argus.IO.ReverseFileReader/master/Assets/Argus-Logo-Purple-64.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
