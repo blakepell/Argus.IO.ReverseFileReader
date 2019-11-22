@@ -1,6 +1,6 @@
 # Reverse File/Stream Reader
 
-[![NuGet version (ReverseFileReader)](https://img.shields.io/badge/nuget-v2019.4.7.1-blue.svg?style=flat-square)](https://www.nuget.org/packages/Argus.IO.ReverseFileReader/)
+[![NuGet version (ReverseFileReader)](https://img.shields.io/badge/nuget-v2019.11.22.1-blue.svg?style=flat-square)](https://www.nuget.org/packages/Argus.IO.ReverseFileReader/)
 [![NuGet version (ReverseFileReader)](https://img.shields.io/github/license/blakepell/argus.io.reversefilereader.svg?style=flat-square)](https://github.com/blakepell/Argus.IO.ReverseFileReader/blob/master/LICENSE)
 
 A file/stream reader that is designed to iterate over a file or a stream line by line in reverse order 
@@ -11,6 +11,7 @@ Although this is geared towards files it will read any Stream line by line in re
 
 ## .Net Framework Support
 
+- .NET Standard 2.1
 - .NET Standard 2.0
 - .NET Framework 4.7.2
 - .NET Framework 4.7.1
