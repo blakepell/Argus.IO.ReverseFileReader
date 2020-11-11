@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;netstandard2.0;net472;net471;net47;net462;net461;net46;net452;net451;net45;net4</TargetFrameworks>
+    <TargetFrameworks>net5.0;netstandard2.1;netstandard2.0;net472;net471;net47;net462;net461;net46;net452;net451;net45;net4</TargetFrameworks>
     <PackageId>Argus.IO.ReverseFileReader</PackageId>
     <Title>Argus.IO.ReverseFileReader</Title>
-    <Version>2019.11.22.1</Version>
+    <Version>2020.11.11.1</Version>
     <Authors>Blake Pell</Authors>
     <Company>http://www.blakepell.com</Company>
     <Product>Argus.IO.ReverseFileReader</Product>
-    <Copyright>Copyright ©  2007-2019</Copyright>
+    <Copyright>Copyright ©  2007-2020</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>A file/stream reader that is designed to iterate over a file or a stream line by line in reverse order in a way that does not read all of the lines into memory at one time.  This supports .NET Standard, the full framework as well as the Windows Universal Platform (UWP) apps.</Description>
     <PackageTags>reverse file stream reader backwards tail</PackageTags>
@@ -17,7 +17,7 @@
     <PackageProjectUrl>https://github.com/blakepell/Argus.IO.ReverseFileReader</PackageProjectUrl>
     <RepositoryUrl>https://github.com/blakepell/Argus.IO.ReverseFileReader</RepositoryUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageReleaseNotes> - Updated targets to add .NET Standard 2.1</PackageReleaseNotes>
+    <PackageReleaseNotes>- Updated targets to add .NET 5.0</PackageReleaseNotes>
     <PackageIconUrl>https://raw.githubusercontent.com/blakepell/Argus.IO.ReverseFileReader/master/Assets/Argus-Logo-Purple-64.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>

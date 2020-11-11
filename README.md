@@ -11,6 +11,7 @@ Although this is geared towards files it will read any Stream line by line in re
 
 ## .Net Framework Support
 
+- .NET 5.0
 - .NET Standard 2.1
 - .NET Standard 2.0
 - .NET Framework 4.7.2

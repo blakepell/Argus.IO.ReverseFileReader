@@ -4,23 +4,24 @@ using System.IO;
 
 namespace Tail
 {
+
     /// <summary>
     /// A tail program to view the last set of lines in a specified file.
     /// </summary>
-    class Program
+    static class Program
     {
-        //*********************************************************************************************************************
-        //
-        //           Program:  Tail
-        //      Organization:  http://www.blakepell.com  
-        //      Initial Date:  04/06/2019
-        //     Last Modified:  04/06/2019
-        //     Programmer(s):  Blake Pell, blakepell@hotmail.com
-        //
-        //*********************************************************************************************************************      
-
         static void Main(string[] args)
         {
+            //*********************************************************************************************************************
+            //
+            //           Program:  Tail
+            //      Organization:  http://www.blakepell.com  
+            //      Initial Date:  04/06/2019
+            //     Last Modified:  11/11/2020
+            //     Programmer(s):  Blake Pell, blakepell@hotmail.com
+            //
+            //*********************************************************************************************************************      
+
             int linesToFetch = 10;
             string filePath = "";
 
@@ -81,7 +82,6 @@ namespace Tail
                 {
                     Console.WriteLine(line);
                 }
-
             }
         }
     }
